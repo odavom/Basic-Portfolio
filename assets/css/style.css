@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    color: #777777;
+}
+
+header {
+    float: left;
+    text-align: center;
+    width: 100%;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
