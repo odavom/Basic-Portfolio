@@ -5,16 +5,35 @@
 
 header {
     float: left;
+    padding-left: 100px;
     text-align: center;
     width: 100%;
     background-color: #ffffff;
     border-color: #cccccc;
 }
 
-h2 {
+#logo {
     float: left;
+    color: #ffffff;
+    background-color: #4aaaa5  
+    
 }
 
-nav {
-    float: left;
+.topnav {
+    padding-top: 20px;    
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    background-color: lavender;
+}
+
+#content {
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: 40px;
+    align  
 }
