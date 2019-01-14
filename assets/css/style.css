@@ -4,6 +4,7 @@
 }
 
 header {
+    position: fixed;
     float: left;
     padding-left: 100px;
     text-align: center;
@@ -13,13 +14,18 @@ header {
 }
 
 #logo {
-    float: left;
+    position: fixed;
+    left: 300px;
+    top: 20px;
+    padding: 10px;
     color: #ffffff;
-    background-color: #4aaaa5  
-    
+    background-color: #4aaaa5      
 }
 
-.topnav {
+.topnav  {
+    position: fixed;
+    right: 300px;
+    top: 20px;
     padding-top: 20px;    
 }
 
@@ -28,12 +34,15 @@ a {
 }
 
 #wrapper {
+    position: relative;
+    top: 100px;
     background-color: lavender;
 }
 
 #content {
+    position: relative;
     background-color: #ffffff;
     width: 960px;
     margin-left: 40px;
-    align  
+    box-align: center; 
 }
