@@ -4,33 +4,37 @@
 }
 
 header {
-    position: fixed;
-    float: left;
-    padding-left: 100px;
+    position: fixed;  
     text-align: center;
     width: 100%;
     background-color: #ffffff;
-    border-color: #cccccc;
+    /* border: 5px solid coral; */
+    border-color: #55dcff;
+    border-width: 2px;
+    border-style: solid;
+    height: 50px;
 }
 
+
+
 #logo {
-    position: fixed;
+    display: inline;
     left: 300px;
     top: 20px;
     padding: 10px;
     color: #ffffff;
-    background-color: #4aaaa5      
+    background-color: #4aaaa5; 
+    width: 300px;    
 }
 
 .topnav  {
-    position: fixed;
-    right: 300px;
-    top: 20px;
+    display: inline;
+    margin-left: 50px;
     padding-top: 20px;    
 }
 
 a {
-    text-decoration: none;
+text-decoration: none;
 }
 
 #wrapper {
