@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: green;
+.header {
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
 }
 
-p {
-    background: green;
+.header__name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.navbuttons {
+    color: #777777;
 }
