@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-.header {
-    background: #4aaaa5;
-    border-style: solid;
-    border-color: #4aaaa5;
-    border-width: 1px;
+body {
+    background-color: green;
 }
 
-.nav {
-    float: left;
+p {
+    background: green;
 }
